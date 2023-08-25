@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile Webpage</title>
+</head>
+
+<body>
+
+    <h1> Personal profile webpage</h1>
+    <hr>
+    <form>
+        <h2>Personal info</h2>
+        <input type="text" readonly name="ReadOnlyField" value="Student"> <br> <br>
+        <label for="FullNameField">Full name: </label>
+        <input type="text" required id="FullNameField" name="Full_Name" placeholder="Enter your full name here"> <br>
+        <br>
+        <label for="EmailAdress">Email:</label>
+        <input type="email" required id="EmailAdress" name="Email_Adress" placeholder="Enter your email here"> <br> <br>
+        <label for="Age">Age:</label>
+        <input type="number" required id="Age" name="Age_Field" placeholder="Enter your age here"> <br> <br>
+        <label for="Nationality">Nationality:</label>
+        <select id="Nationality" name="NationalityField">
+            <optgroup label="Nationalities" id="NationalityOptGroup">
+                <option value="Argentinian">Argentinian</option>
+                <option value="Brazilian">Brazilian</option>
+                <option value="Chilean">Chilean</option>
+                <option value="Mexican">Mexican</option>
+                <option value="American">American</option>
+                <option value="German">German</option>
+                <option value="Dutch">Dutch</option>
+                <option value="French">French</option>
+                <option value="English">English</option>
+            </optgroup>
+        </select> <br> <br>
+        <label for="JobSituations">Job situation:</label>
+        <select id="JobSituations" name="JobField">
+            <optgroup label="Job situation" id="JobSituationsOptGroup">
+                <option value="Unemployed" id="UnemployedOption">Unemployed</option>
+                <option value="Looking for a job" id="LookingForAJobOption">Looking for a job</option>
+                <option value="Part-time job" id="PartTimeJobOption">Part-time job</option>
+                <option value="Full-time job" id="FullTimeJobOption">Full-time job</option>
+            </optgroup>
+        </select> <br> <br>
+        <hr>
+        <h2>Personal likes</h2>
+        <label for="FavBandField">Favourite music band:</label>
+        <input type="text" required id="FavBandField" name="Fav_Band_Field" placeholder="Enter your fav music band here"> <br> <br>
+        <label for="FavMeals">Favourite meal:</label>
+        <select id="FavMeals" name="FavMealsField">
+            <optgroup label="Favourite Meals" id="FavouriteMealsOptGroup"></optgroup>
+                <option value="Fried chicken">Fried Chicken</option>
+                <option value="Meat">Meat</option>
+                <option value="French fries">French fries</option>
+                <option value="Salad">Salad</option>
+        </select> <br>
+        <hr> <br> <br>
+        <label for="CheckBox">Remember this data</label>
+        <input type="checkbox" id="CheckBox" name="Check_Box"><br>
+        <label for="SubmitButton"></label> <br> 
+        <input type="submit" id="SubmitButton" name="Submit_Button">
+    </form>
+</body>
+
+</html>
