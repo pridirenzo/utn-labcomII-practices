@@ -1,0 +1,71 @@
+/* IDS- recomendado para unicos elementos. clases para multiples elementos*/
+
+.element {
+
+    font-family: sans-serif;
+
+}
+
+#body_main_title {
+    font-size: 24px; /*tamaño fuente*/
+    color: #242424; 
+    font-weight: 900; /*grosor*/
+}
+
+#body_second_title{
+
+    font-size: 20px;
+    font-weight: 800;
+    color: #606060;
+}
+
+p{
+
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.list_elements{
+    font-size: 18px;
+    font-family: monospace;
+    margin-left: 100px;
+    padding: 20px;
+    border: solid; 
+    border-color: blue;
+    border-width: 2px;
+    list-style-type: none; 
+    list-style-position: inside;
+    
+    
+}
+
+.list_elements > li{
+    padding: 10px; /*espaciado interno - padding*/
+}
+
+.list_elements > li:hover{
+    background-color: rgba(0, 0, 0, 0.1); /*ultima casilla : opacidad*/
+    
+}
+
+a { /*links- <anchor */
+    font-weight: bold;
+    color: orangered;
+    text-decoration: underline;
+    
+}
+
+.neuquen_li > a, .rio_negro_li > a, #neuquen_li, #rio_negro_li{
+
+    color: green;
+}
+
+#list{
+
+    max-width: 40%;
+    
+}
+html {
+    background-color: rgb(245,245,245);
+}
